@@ -18,7 +18,7 @@ class StudentProfile:
 name = input("Enter student's name: ")
 initial_score = int(input("Enter Initial Score: "))
 new_score = int(input("Enter the new_score: "))
-sowmya = StudentProfile('sowmya',90)
+sowmya = StudentProfile(name,new_score)
 sowmya.get_score()
 if sowmya.set_score(new_score):
     print("Score Updated")
